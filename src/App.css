@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background: linear-gradient(-45deg, #03475e, #cac411,#c43923, #a9a916, #9e217a);
+    
+
+;
+
+	background-size: 300% 300%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+
+.header{
+    text-align: center;
+    margin:1rem;
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'VT323', monospace;
+    font-size: 3rem;
+    color: wheat;
+}
+.app{
+    display: grid;
+    place-content: center;
+    margin: 1rem auto 1rem;
+    max-width: 55%;
+}
+.main{
+    padding: 1rem;
+    max-width: 100%;
+}
+.card{ 
+    background-color: rgba(252, 251, 251, 0);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) ;
+    color: aliceblue;
+}
+h5{
+    font-size: 1.6rem;
+    font-family: 'Cinzel', serif;
+    color: rgb(142, 4, 114);
+}
+.ques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ques-answer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border-radius: 50%;
+    background: rgba(35, 230, 64, 0.845);
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+p{  
+    margin-top: 3px;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-indent: 1.25rem;
+}
